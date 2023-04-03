@@ -1,0 +1,150 @@
+---
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+		<title>Adwaith Sajeev C</title>
+	</head>
+	<body>
+		<header class="header">
+			<a href="#" class="logo">Portfolio</a>
+		</header>
+		<section class="home">
+			<div class="name">
+				<h3>Hello,It's Me</h3>
+				<h1><span>Adwaith Sajeev C</span></h1>
+				<br>
+				<p>I am a CS student currently pursuing my undergraduate degree <br>
+					As a technology enthusiast, I have always been fascinated by the ever-evolving <br>
+					world of technology and its impact on our lives.
+				   <br><br>
+				   Currently, I am learning Python and C, as well as the Django framework <br> 
+				   In my free time, I enjoy exploring the latest technologies and staying <br>
+				   up-to-date with the latest trends in the world of technology
+			   </p>   
+	
+	
+				<div class="social-media">
+					<a href="https://github.com/adwxith"><i class='bx bxl-github'></i></a>
+					<a href="https://www.linkedin.com/in/adwaith-sajeev-c-677382217/"><i class='bx bxl-linkedin'></i></a>
+					<a href="https://www.instagram.com/adwxith___/"><i class='bx bxl-instagram' ></i></a>
+					<a href="https://twitter.com/Adwxith_?t=Lx6HjjeBXOXiXX9g8ke_2w&s=09"><i class='bx bxl-twitter' ></i></a>
+				</div>
+					<br>
+					<a href="https://docs.google.com/document/d/1NS9fwEIPNrDg1RlFwITTyjtbg3fR7ogdxjOH6P1kKTI/edit?usp=sharing" class="btn">Resume</a> 
+			</div>       
+			
+				
+		</section>
+	</body>
+</html>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    scroll-behavior: smooth;
+    background: #020020;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 2rem 2% 2rem;
+    background: #020020;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+.header a {
+    color: #fff;
+}
+.logo{
+    font-size: 1.5rem;
+    color: #480ca8;
+    font-weight: 600;
+    cursor: default;
+    
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 3% 2rem;
+    color: #fff;
+    background-image: url(../images/cover.png);
+}
+.home{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+.name{
+    max-width: 44rem ;
+}
+.name h3{
+    font-size:1.8rem;
+    font-weight: 400;
+}
+.name h1{
+    color: #bbd0ff;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+span{
+    color:#480ca8;
+}
+
+.name p{
+    color: #fff;
+    font-size: 1rem;
+    font-family: 300;
+
+}
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+    border: .1rem solid #480ca8;
+    
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color:whitesmoke
+    ;
+    margin: 2rem 0.5rem 2rem 0;
+    transition: 0.5s ease;
+}
+.social-media a:hover{
+    background: transparent ;
+    color: aliceblue;
+    box-shadow: 0 0 2rem darkorchid;
+}
+.btn{
+    display: inline-block;
+    padding: 1rem 2.0rem ;
+    background: transparent;
+    color: aliceblue;
+    border-radius: 6rem;
+    border: #480ca8;
+    box-shadow: 0 0 0.2rem #480ca8;
+    transition: 0.5s;
+}
+.btn:hover{
+    background: #020020;
+    color: #fff;
+    box-shadow: 0 0 1rem darkorchid;
+}
+</style>
