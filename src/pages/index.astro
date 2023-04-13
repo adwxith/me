@@ -1,47 +1,51 @@
 ---
+import profile from '../images/img1.png';
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-		<title>Adwaith Sajeev C</title>
-	</head>
-	<body>
-		<header class="header">
-			<a href="#" class="logo">adwxith</a>
-		</header>
-		<section class="home">
-			<div class="name">
-				<h3>Hello,It's Me</h3>
-				<h1><span>Adwaith Sajeev C</span></h1>
-				<br>
-				<p>I am a CS student currently pursuing my undergraduate degree <br>
-					As a technology enthusiast, I have always been fascinated by the ever-evolving <br>
-					world of technology and its impact on our lives.
-				   <br><br>
-				   Currently, I am learning Python and C, as well as the Django framework <br> 
-				   In my free time, I enjoy exploring the latest technologies and staying <br>
-				   up-to-date with the latest trends in the world of technology
-			   </p>   
-	
-	
-				<div class="social-media">
-					<a href="https://github.com/adwxith"><i class='bx bxl-github'></i></a>
-					<a href="https://www.linkedin.com/in/adwaith-sajeev-c-677382217/"><i class='bx bxl-linkedin'></i></a>
-					<a href="https://www.instagram.com/adwxith___/"><i class='bx bxl-instagram' ></i></a>
-					<a href="https://twitter.com/Adwxith_?t=Lx6HjjeBXOXiXX9g8ke_2w&s=09"><i class='bx bxl-twitter' ></i></a>
-				</div>
-					<br>
-					<a href="https://docs.google.com/document/d/1NS9fwEIPNrDg1RlFwITTyjtbg3fR7ogdxjOH6P1kKTI/edit?usp=sharing" class="btn">Resume</a> 
-			</div>       
-			
-				
-		</section>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adwxith</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+    </header>
+    <section class="home">
+        <div class="name">
+            <h3>Hello,It's Me</h3>
+            <h1><span>Adwaith Sajeev C</span></h1>
+            <br>
+            <p>I am a CS student currently pursuing my undergraduate degree <br>
+                As a technology enthusiast, I have always been fascinated by the ever-evolving <br>
+                world of technology and its impact on our lives.
+               <br><br>
+               Currently, I am learning Python and C, as well as the Django framework <br> 
+               In my free time, I enjoy exploring the latest technologies and staying <br>
+               up-to-date with the latest trends in the world of technology
+           </p>   
+
+
+            <div class="social-media">
+                <a href="https://github.com/adwxith"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/adwaith-sajeev-c-677382217/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/adwxith___/"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://twitter.com/Adwxith_?t=Lx6HjjeBXOXiXX9g8ke_2w&s=09"><i class='bx bxl-twitter' ></i></a>
+            </div>
+                <br>
+                <a href="https://docs.google.com/document/d/1NS9fwEIPNrDg1RlFwITTyjtbg3fR7ogdxjOH6P1kKTI/edit?usp=sharing" class="btn">Resume</a> 
+        </div>  
+    <img src="https://i.imgur.com/4F0tyvu.png" alt="" class="image">
+        
+            
+    </section>
+    
+
+</body>
+
 </html>
 <script data-goatcounter="https://adwxith.goatcounter.com/count"async src="//gc.zgo.at/count.js"></script>
 <style>
@@ -55,6 +59,7 @@
     outline: none;
     scroll-behavior: smooth;
     background: #020020;
+    
 }
 .header{
     position: fixed;
@@ -67,7 +72,6 @@
     z-index: 100;
 }
 .header a {
-    font-size: 400;
     color: #fff;
 }
 .logo{
@@ -81,7 +85,7 @@ section{
     min-height: 100vh;
     padding: 10rem 3% 2rem;
     color: #fff;
-    background-image: url(../images/cover.png);
+    background-color: #020020;
 }
 .home{
     display: flex;
@@ -148,4 +152,17 @@ span{
     color: #fff;
     box-shadow: 0 0 1rem darkorchid;
 }
+.image{
+position: fixed;
+bottom: 0px;
+right: 0px;
+}
+@media (max-width:1100px){
+    .image{
+        display: none;
+    }
+}
+
+
+
 </style>
